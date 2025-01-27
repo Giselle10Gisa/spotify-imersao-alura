@@ -1,0 +1,142 @@
+body {
+    background-color: #000;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 12px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sidebar_navigation {
+    background-color: #200B26;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+
+.logo {
+    background: #200B26;
+    display: flex;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+
+.sidebar_navigation .logo img {
+    width: 80px;
+}
+
+.sidebar nav ul {
+    margin-top: 20px;
+    padding: 0 20px 10px 20px;
+}
+
+.sidebar ul li {
+    padding: 10px 0px;
+}
+
+.sidebar nav ul li a {
+    color: #A6059B;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: "DM Sans", sans-serif;
+}
+
+.sidebar nav ul li a:hover {
+    color: #D9E4C1;
+}
+
+.sidebar_lib {
+    background-color: #200B26;
+    border-radius: 8px;
+    padding: 16px 8px 0 8px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+}
+
+.lib {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    color: #A6059B;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 16px 8px 16px 8px;
+}
+
+.lib_text {
+    padding: 0px 120px 0px 15px;
+    cursor: default;
+}
+
+.fa-plus:hover {
+    color: #D9E4C1;
+    cursor: pointer;
+}
+
+.own_playlist {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #580A59;
+    padding: 10px 16px 10px 16px;
+    margin-top: 15px;
+    border-radius: 8px;
+    color: #f24cf5;
+}
+
+.create_text {
+    font-weight: 600;
+    cursor: default;
+}
+
+.easy_text {
+    font-weight: 500;
+    cursor: default;
+}
+
+.button_create {
+    width: 100px;
+    padding: 10px;
+    border-radius: 100px;
+    margin-top: 10px;
+    background-color: #EE05F2;
+}
+
+.button_create:hover {
+    background-color: #D9E4C1;
+}
+
+.cookies_portuguese {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 16px 10px 16px 10px;
+    color: #EE05F2;
+}
+
+.cookies {
+    margin-top: 15px;
+    font-size: 12px;
+    cursor: default;
+}
+
+.portuguese {
+    width: 160px;
+    padding: 10px;
+    border-radius: 100px;
+    border: #EE05F2 1px solid;
+    color: #EE05F2;
+    background-color: #200B26;
+}
+
+.portuguese:hover {
+    border: #D9E4C1 1px solid;
+    color: #D9E4C1;
+}
