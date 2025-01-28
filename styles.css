@@ -70,9 +70,19 @@ body {
     padding: 16px 8px 16px 8px;
 }
 
+.lib_button {
+    background-color: transparent;
+    color: #A6059B;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.lib_button:hover {
+    color: #D9E4C1;
+}
+
 .lib_text {
-    padding: 0px 120px 0px 15px;
-    cursor: default;
+    padding: 0px 100px 0px 15px;
 }
 
 .fa-plus:hover {
@@ -139,4 +149,45 @@ body {
 .portuguese:hover {
     border: #D9E4C1 1px solid;
     color: #D9E4C1;
+}
+
+.disclaimer-premium {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to right, #200B26, #F205E2);
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.disclaimer-premium .text {
+    flex-shrink: 0;
+}
+
+.disclaimer-premium .disclaimer-premium_title {
+    color: #D9E4C1;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.disclaimer-premium .disclaimer-premium_subtitle {
+    color: #D9E4C1;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.disclaimer-premium button {
+    background-color: #D9E4C1;
+    color: #200B26;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 14px 30px;
+    border: 0px;
+    border-radius: 40px;
+    cursor: pointer;
+    flex-shrink: 0;
 }
